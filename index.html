@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctic Esports | IGL Toxi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background-color: #1c1c1c; color: #ffffff; text-align: center; }
+        
+        /* Container */
+        .container { padding: 25px; max-width: 600px; margin: auto; }
+        
+        /* Headers */
+        h2 { color: #f6a43a; margin: 45px 0 20px; text-transform: uppercase; letter-spacing: 2px; }
+
+        /* Images - Path: images/ */
+        img { 
+            width: 100%; 
+            border-radius: 15px; 
+            border: 2px solid #333; 
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .profile-img { border: 4px solid #f6a43a; max-width: 300px; margin-top: 20px; }
+        .team-img { border: 2px solid #f6a43a; }
+
+        /* Buttons */
+        .btn { 
+            background: #f6a43a; 
+            color: #000; 
+            padding: 16px 32px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border-radius: 10px; 
+            display: inline-block; 
+            margin: 15px 0;
+            text-transform: uppercase;
+        }
+
+        /* Video Section */
+        .video-box { 
+            position: relative; 
+            padding-bottom: 177%; /* Vertical Ratio */
+            height: 0; 
+            width: 100%;
+            max-width: 320px; 
+            margin: auto; 
+            border-radius: 20px; 
+            overflow: hidden; 
+            border: 2px solid #444;
+        }
+        .video-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+        /* WhatsApp Button */
+        .wa-float { 
+            position: fixed; 
+            bottom: 20px; 
+            right: 20px; 
+            background: #25d366; 
+            width: 60px; 
+            height: 60px; 
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: #fff; 
+            font-size: 30px; 
+            z-index: 1000; 
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        /* Footer Section */
+        .footer-box { background: #252525; padding: 40px 20px; margin-top: 50px; border-radius: 25px 25px 0 0; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/profile.jpg" alt="Toxi" class="profile-img">
+        <h1 style="color:#f6a43a; font-size: 2.8rem;">IGL - TOXI</h1>
+        <p style="color: #bbb;">Arctic Esports Official Player</p>
+        <a href="#contact" class="btn">APPLY NOW</a>
+    </div>
+
+    <div class="container">
+        <h2>Highlights</h2>
+        <img src="images/highlight1.jpg" alt="H1">
+        <img src="images/highlight2.jpg" alt="H2">
+        <img src="images/highlight3.jpg" alt="H3">
+    </div>
+
+    <div class="container">
+        <h2>Team Arctic Roster</h2>
+        <img src="images/team.jpg" alt="Team" class="team-img">
+    </div>
+
+    <div class="container">
+        <h2>Watch Our Video</h2>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/1y0PE1BYWzY" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="contact" class="footer-box">
+        <h2>Booking</h2>
+        <p style="font-size: 1.8rem; margin: 10px 0;">+91 9420009275</p>
+        <a href="tel:9420009275" class="btn">Call Now</a>
+        <p style="margin-top: 20px;">
+            <a href="https://instagram.com/arcticesports7" target="_blank" style="color: #f6a43a; text-decoration: none;">
+                <i class="fab fa-instagram"></i> @arcticesports7
+            </a>
+        </p>
+    </div>
+
+    <a href="https://wa.me/919420009275" class="wa-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer style="padding: 20px; color: #555; font-size: 12px;">
+        &copy; 2025 Arctic Esports
+    </footer>
+
+</body>
+</html>
